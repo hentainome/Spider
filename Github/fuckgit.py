@@ -61,7 +61,7 @@ class GithubLogin(object):
 
 if __name__ == "__main__":
 	Github = GithubLogin()
-	Github.post_param(email='kaisen341125@gmail.com',password='naruto341125')
+	Github.post_param(email='example@mail.com',password='password')
 	Github.bool_login()
 
 

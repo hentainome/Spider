@@ -54,5 +54,5 @@ class PixivLogin(object):
 
 if __name__ == "__main__":
 	Pixiv = PixivLogin()
-	Pixiv.post_value(email='1574610621@qq.com',password='naruto341125')
+	Pixiv.post_value(email='example@mail.com',password='password')
 	Pixiv.book()
